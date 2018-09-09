@@ -58,10 +58,24 @@ section {
     #text h1 {font-size:38px;top:-15px}
     #text p {font-size:25px;top:-40px;}
     .button  {top:-25px;}
-    .button button {height:45px;width:145px;font-size:24px;border-radius:5px;}
+    .button button {height:45px;width:145px;font-size:24px;border-radius:10px;}
     #text1 {font-size:26px;margin-top:5px;}
 	.circle {height : 80px;width:80px;background-size: 80px 80px}
 	.desc {font-size:12px}
+	.avatar {margin-top:-12px;}
+    
+}
+
+@media only screen and (max-width : 375px){
+/* For Laptop */
+    #logo img {width:67px;height:85px}
+    #text h1 {font-size:25px;top:-12px}
+    #text p {font-size:15px;top:-31px;}
+    .button  {top:-25px;}
+    .button button {height:25px;width:125px;font-size:12px;border-radius:10px;}
+    #text1 {font-size:15px;margin-top:5px;}
+	.circle {height : 60px;width:60px;background-size: 60px 60px}
+	.desc {font-size:9px}
 	.avatar {margin-top:-12px;}
     
 }
