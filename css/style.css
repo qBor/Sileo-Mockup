@@ -1,0 +1,68 @@
+/* CSS Document */
+
+body {background-image:url('../img/background.png') ; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */font-family:'Myriad Set Pro'}
+
+
+
+ #logo img {width:269px;height:294px;padding-top:120px;}
+
+ #text h1 {position:relative;top:-30px;padding-top:-10px;;color:#FFF;font-size: 72px;font-weight: bold;}
+.button {position:relative;top:-50px;}
+.button button {display:inline-block;font-family: 'Myriad Set Pro'; font-weight: 100; margin-left:25px;border: 1px solid #fff;border-radius:10px;height:50px;width: 250px;color:#fff;background-color:transparent;font-size:25px;outline:none;}
+
+ #text p {position:relative;top:-80px;;color:#fff;font-weight: 100;font-size:31px;}
+
+#text1 {color:#FFF;font-weight:100;font-size:25px;position:relative;margin-top:-3px;}
+
+section {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+	margin-top: 50px;
+	
+}
+.avatar {
+	text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-left: 35px;
+	
+	
+}
+.circle {
+  background-size:100px 100px;
+	background-repeat:no-repeat;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.desc {
+	
+	font-family: 'Myriad Set Pro';
+	font-weight:100;
+  display: inline-block;
+	color:#FFF;
+	font-size:15px;
+	
+	
+}
+
+@media only screen and (max-width : 1224px){
+/* For Laptop */
+    #logo img {width:134px;height:147px}
+    #text h1 {font-size:38px;top:-15px}
+    #text p {font-size:25px;top:-40px;}
+    .button  {top:-25px;}
+    .button button {height:45px;width:145px;font-size:24px;border-radius:5px;}
+    #text1 {font-size:26px;margin-top:5px;}
+	.circle {height : 80px;width:80px;background-size: 80px 80px}
+	.desc {font-size:12px}
+	.avatar {margin-top:-12px;}
+    
+}
+
