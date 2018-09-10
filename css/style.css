@@ -2,7 +2,7 @@
 
 body {background-image:url('../img/background.png') ; 
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */font-family:'Myriad Set Pro'}
+  background-size: cover; /* version standardisée */font-family:'Myriad Set Pro'; padding:0;margin:0;}
 
 
 
@@ -16,7 +16,7 @@ body {background-image:url('../img/background.png') ;
 
 #text1 {color:#FFF;font-weight:100;font-size:25px;position:relative;margin-top:-3px;}
 
-section {
+section{
   display: flex;
   flex-flow: row;
   justify-content: center;
@@ -52,9 +52,21 @@ section {
 	
 }
 
+footer {
+            
+	        font-size:12px;
+            width: 100%;
+            bottom: 0;
+	margin:0;
+	padding:0;
+            position:fixed;
+	color: #FFF;
+}
+
+
 @media only screen and (max-width : 1224px){
 /* For Laptop */
-    #logo img {width:134px;height:147px}
+    #logo img {width:134px;height:143px}
     #text h1 {font-size:38px;top:-15px}
     #text p {font-size:25px;top:-40px;}
     .button  {top:-25px;}
@@ -63,20 +75,28 @@ section {
 	.circle {height : 80px;width:80px;background-size: 80px 80px}
 	.desc {font-size:12px}
 	.avatar {margin-top:-12px;}
+	footer img {height:9px;}
     
 }
 
 @media only screen and (max-width : 375px){
 /* For Laptop */
-    #logo img {width:67px;height:85px}
+    #logo img {width:67px;height:85px;padding-top:20px;}
     #text h1 {font-size:25px;top:-12px}
     #text p {font-size:15px;top:-31px;}
     .button  {top:-25px;}
-    .button button {height:25px;width:125px;font-size:12px;border-radius:10px;}
-    #text1 {font-size:15px;margin-top:5px;}
-	.circle {height : 60px;width:60px;background-size: 60px 60px}
-	.desc {font-size:9px}
-	.avatar {margin-top:-12px;}
+    .button button {height:35px;width:235px;font-size:14px;border-radius:10px;display:block;margin-top: 20px;}
+    #text1 {font-size:15px;margin-top:5px;margin-left:10px;}
+	.circle {height : 70px;width:70px;background-size: 70px 70px;}
+	.desc {font-size:0px;display:block}
+	footer img{height:9px;}
+	
+
+	}
+    
+
+	
     
 }
+
 
