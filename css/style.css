@@ -1,102 +1,198 @@
 /* CSS Document */
 
+
+
 body {background-image:url('../img/background.png') ; 
+
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */font-family:'Myriad Set Pro'; padding:0;margin:0;}
+
+  background-size: cover; /* version standardisÃ©e */font-family:'Myriad Set Pro'; padding:0;margin:0;}
+
+
+
+
 
 
 
  #logo img {width:269px;height:294px;padding-top:120px;}
 
+
+
  #text h1 {position:relative;top:-30px;padding-top:-10px;;color:#FFF;font-size: 72px;font-weight: bold;}
+
 .button {position:relative;top:-50px;}
+
 .button button {display:inline-block;font-family: 'Myriad Set Pro'; font-weight: 100; margin-left:25px;border: 1px solid #fff;border-radius:10px;height:50px;width: 250px;color:#fff;background-color:transparent;font-size:25px;outline:none;}
+
+
 
  #text p {position:relative;top:-80px;;color:#fff;font-weight: 100;font-size:31px;}
 
+
+
 #text1 {color:#FFF;font-weight:100;font-size:25px;position:relative;margin-top:-3px;}
 
+
+
 section{
+
   display: flex;
+
   flex-flow: row;
+
   justify-content: center;
+
 	margin-top: 50px;
+
 	
+
 }
+
 .avatar {
+
 	text-align: center;
+
   display: flex;
+
   flex-flow: column;
+
   align-items: center;
+
   margin-left: 35px;
+
 	
+
 	
+
 }
+
 .circle {
+
   background-size:100px 100px;
+
 	background-repeat:no-repeat;
+
   height: 100px;
+
   width: 100px;
+
   border-radius: 50%;
+
   display: inline-block;
+
 }
+
+
 
 .desc {
+
 	
+
 	font-family: 'Myriad Set Pro';
+
 	font-weight:100;
+
   display: inline-block;
+
 	color:#FFF;
+
 	font-size:15px;
+
 	
+
 	
+
 }
 
+
+
 footer {
+
             
+
 	        font-size:12px;
+
             width: 100%;
+
             bottom: 0;
+
 	margin:0;
+
 	padding:0;
+
             position:fixed;
+
 	color: #FFF;
+
 }
+
+
+
 
 
 @media only screen and (max-width : 1224px){
+
 /* For Laptop */
+
     #logo img {width:134px;height:143px}
+
     #text h1 {font-size:38px;top:-15px}
+
     #text p {font-size:25px;top:-40px;}
+
     .button  {top:-25px;}
+
     .button button {height:45px;width:145px;font-size:24px;border-radius:10px;}
+
     #text1 {font-size:26px;margin-top:5px;}
+
 	.circle {height : 80px;width:80px;background-size: 80px 80px}
+
 	.desc {font-size:12px}
+
 	.avatar {margin-top:-12px;}
+
 	footer img {height:9px;}
+
     
+
 }
+
+
 
 @media only screen and (max-width : 375px){
-/* For Laptop */
-    #logo img {width:67px;height:85px;padding-top:20px;}
-    #text h1 {font-size:25px;top:-12px}
-    #text p {font-size:15px;top:-31px;}
-    .button  {top:-25px;}
-    .button button {height:35px;width:235px;font-size:14px;border-radius:10px;display:block;margin-top: 20px;}
-    #text1 {font-size:15px;margin-top:5px;margin-left:10px;}
-	.circle {height : 70px;width:70px;background-size: 70px 70px;}
-	.desc {font-size:0px;display:block}
-	footer img{height:9px;}
+
+/* For ip6 */
+
+	section { margin-left:-25px;}
 	
+    #logo img {width:89px;height:98px;padding-top:20px;}
+
+    #text h1 {font-size:25px;top:-12px}
+
+    #text p {font-size:15px;top:-31px;}
+
+    .button  {top:-25px;margin-left:-20px;}
+
+    .button button {height:35px;width:305px;font-size:14px;border-radius:10px;display:block;margin-top: 20px;}
+
+    #text1 {font-size:15px;margin-top:5px;margin-left:10px;}
+
+	.circle {height : 70px;width:70px;background-size: 70px 70px;}
+
+	.desc {font-size:0px;display:block}
+
+	footer img{height:9px;}
+
+	
+
+
 
 	}
-    
 
-	
-    
-}
+   
+
+
+
 
 
