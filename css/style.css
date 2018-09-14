@@ -190,8 +190,53 @@ footer {
 
 	}
 
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
+	section { margin-left:-25px;}
+	
+    #logo img {width:89px;height:98px;padding-top:20px;}
+
+    #text h1 {font-size:25px;top:-12px}
+
+    #text p {font-size:15px;top:-31px;}
+
+    .button  {top:-25px;margin-left:-20px;}
+
+    .button button {height:35px;width:305px;font-size:14px;border-radius:10px;display:block;margin-top: 20px;}
+
+    #text1 {font-size:15px;margin-top:5px;margin-left:10px;}
+
+	.circle {height : 70px;width:70px;background-size: 70px 70px;}
+
+	.desc {font-size:0px;display:block}
+
+	footer img{height:9px;}}
    
 
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) { 	section {; margin-left:-25px;}
+	
+    #logo img {width:89px;height:98px;padding-top:20px;}
+
+    #text h1 {font-size:25px;top:-9px}
+
+    #text p {font-size:16px;top:-25px;}
+
+    .button  {top:-25px;margin-left:-20px;}
+
+    .button button {height:35px;width:335px;font-size:14px;border-radius:10px;display:block;margin-top: 20px;}
+
+    #text1 {font-size:17px;margin-top:5px;margin-left:10px;}
+
+	.circle {;height : 90px;width:90px;background-size: 90px 90px;}
+
+	.desc {font-size:0px;display:block}
+
+	footer img{height:9px;}
+	
 
 
 
